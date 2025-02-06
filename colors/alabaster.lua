@@ -27,7 +27,7 @@ if vim.o.background == "dark" then
     vim.g.terminal_color_15 = "#ffffff"
 
     -- colors
-    local bg = "#0e1415"
+    local bg = "#020202"
     local fg = "#cecece"
     local punct_fg = "#708b8d"
     local def_fg = "#71ade7"
@@ -99,7 +99,7 @@ if vim.o.background == "dark" then
         -- MsgArea      { }, -- Area for messages and cmdline
         -- MsgSeparator { }, -- Separator for scrolled messages, `msgsep` flag of 'display'
         MoreMsg = { fg = ansi.green, bold = 1 },
-        NonText = { fg = "#696969" },
+        NonText = { fg = "#323843" },
         Normal = { bg = bg, fg = fg },
         NormalFloat = { bg = float_bg },
         -- NormalNC     { }, -- normal text in non-current windows
@@ -474,7 +474,7 @@ else
         -- MsgArea      { }, -- Area for messages and cmdline
         -- MsgSeparator { }, -- Separator for scrolled messages, `msgsep` flag of 'display'
         MoreMsg = { fg = ansi.green, bold = 1 },
-        NonText = { fg = "#696969" },
+        NonText = { fg = "#323843" },
         Normal = { bg = bg, fg = fg },
         NormalFloat = { bg = float_bg },
         -- NormalNC     { }, -- normal text in non-current windows
