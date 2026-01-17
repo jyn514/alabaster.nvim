@@ -40,7 +40,6 @@ if vim.o.background == "dark" then
     local statusline = "#162022"
     local comment = "#dfdf8e"
     local dim_comment = "#696969"
-    local string_fg = dim_comment
     local mistake = {
         fg = "#c33c33",
         bg = "#2b1d1e",
@@ -60,6 +59,7 @@ if vim.o.background == "dark" then
         white = "#cecece",
         yellow = "#cd974b",
     }
+    local string_fg = ansi.white
     local comment_fg = vim.g.alabaster_dim_comments and dim_comment or comment
     local pmenu_bg = "#182325"
     local float_bg = vim.g.alabaster_floatborder and bg or pmenu_bg
