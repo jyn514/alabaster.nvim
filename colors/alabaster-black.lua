@@ -71,7 +71,7 @@ if vim.o.background == "dark" then
     theme = {
         Comment = { fg = comment_fg },
         ColorColumn = { bg = "#182325" },
-        Conceal = { fg = comment_fg },
+        Conceal = { fg = dim_comment },
         Cursor = { bg = active, fg = "#000000" },
         -- lCursor      { }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
         -- CursorIM     { }, -- like Cursor, but used when in IME mode |CursorIM|
